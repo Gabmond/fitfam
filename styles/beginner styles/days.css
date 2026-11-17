@@ -1,0 +1,64 @@
+.daily-schedule {
+    margin-bottom: 5rem;
+}
+
+.daily-schedule__card {
+    background-color: var(--tertiary-base);
+    border: 1px solid var(--tertiary-tint);
+    border-radius: var(--radius-lg);
+}
+
+.daily-schedule__content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 5px;
+}
+
+.daily-schedule__content a {
+    text-align: center;
+    font-weight: var(--font-weight-bold);
+}
+
+/* ----------------------- DAY 1 --------------------- */
+.workout-overview .eyebrow {
+    display: block;
+    font-size: 10px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+    color: var(--grey-500);
+    margin: 0;
+}
+
+.workout-overview {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid var(--grey-700);
+}
+
+.workout-overview p {
+    color: var(--white);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+}
+
+.workout-overview__item {
+    background-color: var(--tertiary-base);
+    border: 1px solid var(--tertiary-tint);
+    border-radius: var(--radius-lg);
+    padding: 1rem;
+    width: 100%;
+}
+
+.workout-overview__item li {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.workout-overview__item .material-symbols-outlined {
+    font-size: 15px;
+    color: var(--primary-base);
+}

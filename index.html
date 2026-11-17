@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="FITFAM: structured training programs, bodyweight skills and community challenges.">
+    <title>FITFAM | Discipline. Consistency. Motion.</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=exercise" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=stacks" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <!-- Top navigation -->
+    <header class="top-navigation">
+        <nav class="navbar-div container" aria-label="Main">
+            <a href="index.html" aria-label="FITFAM home">
+                <img class="logo" src="images/FITFAM_logo_transparent.png" width="50" height="50" alt="FITFAM logo">
+            </a>
+            <a href="./train/train.html" class="btn btn--primary-nav">Train</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Hero section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <p class="badge">FITFAM COMMUNITY</p>
+
+            <div class="hero__content">
+                <h1 id="hero-title">Discipline<span class="accent">.</span> Consistency<span class="accent">.</span> Motion<span class="accent">.</span></h1>
+                <p>Train with purpose. Build strength. Master skills. Become better.</p>
+            </div>
+
+            <ul class="hero__actions">
+                <li><a href="./train/train.html" class="btn btn--hero-primary">Start training</a></li>
+                <li><a href="#skills" class="btn btn--hero-secondary">Explore skills</a></li>
+            </ul>
+        </section>
+
+        <!-- Choose path section -->
+        <section class="section" aria-labelledby="path-title">
+            <header class="section__header">
+                <span class="eyebrow">Step 1</span>
+                <h2 id="path-title" class="section__title">Choose your path</h2>
+                <p>Find a training program that matches your fitness level and goal.</p>
+            </header>
+
+            <div class="card-list">
+                <article class="path-card path-card--men">
+                    <div class="path-card__media">
+                        <img src="./images/image 11-1.jpg" alt="">
+                        <h3 class="card__title">Men</h3>
+                    </div>
+                    <div class="path-card__content">
+                        <p>Build strength, develop muscle, and improve your performance with structured training.</p>
+                        <a href="./train/fitness level/men.html" class="btn btn--card-outline">Explore programs</a>
+                    </div>
+                </article>
+
+                <article class="path-card path-card--women">
+                    <div class="path-card__media">
+                        <img src="./images/image 9-1.jpg" alt="">
+                        <h3 class="card__title">Women</h3>
+                    </div>
+                    <div class="path-card__content">
+                        <p>Build strength, improve endurance, and develop your fitness with structured training.</p>
+                        <span class="btn btn--card-outline" aria-disabled="true">Coming soon</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Training goals section -->
+        <section class="section" aria-labelledby="goals-title">
+            <header class="section__header">
+                <span class="eyebrow">Focus</span>
+                <h2 id="goals-title" class="section__title">Training goals</h2>
+                <p>Choose your goal to find a structured program designed to help your progress.</p>
+            </header>
+
+            <div class="card-list">
+                <article class="card goal-card goal-card--hypertrophy">
+                    <div class="card__header">
+                        <span class="eyebrow">Hypertrophy</span>
+                    </div>
+                    <h3 class="card__title">Build muscle</h3>
+                    <p>Build muscle with structured workouts, progressive overload, and a training plan tailored to your level.</p>
+                    <a href="./train/train.html" class="btn btn--goal">Start</a>
+                </article>
+
+                <article class="card goal-card goal-card--strength is-disabled">
+                    <div class="card__header">
+                        <span class="eyebrow">Strength</span>
+                        <span class="badge">Coming soon</span>
+                    </div>
+                    <h3 class="card__title">Get stronger</h3>
+                    <p>Build strength and improve performance through progressive, structured training.</p>
+                    <a href="./train/train.html" class="btn btn--goal is-disabled" aria-disabled="true" tabindex="-1">In Development</a>
+                </article>
+
+                <article class="card goal-card goal-card--endurance is-disabled">
+                    <div class="card__header">
+                        <span class="eyebrow">Endurance</span>
+                        <span class="badge">Coming soon</span>
+                    </div>
+                    <h3 class="card__title">Build stamina</h3>
+                    <p>Improve your stamina and ability to sustain physical activity for longer</p>
+                    <a href="./train/train.html" class="btn btn--goal is-disabled" aria-disabled="true" tabindex="-1">In Development</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Skills training section -->
+        <section id="skills" class="section" aria-labelledby="skills-title">
+            <article class="card skills-card">
+                <span class="eyebrow">Skills</span>
+                <h2 id="skills-title" class="card__title">Master your body</h2>
+                <p>Develop strength, control and bodyweight skills through progressive training.</p>
+                <a href="#skills" class="btn btn--goal">Explore skills</a>
+            </article>
+        </section>
+
+        <!-- Community section -->
+        <section id="community" class="section" aria-labelledby="community-title">
+            <header class="section__header">
+                <span class="eyebrow">Community</span>
+                <h2 id="community-title" class="section__title">FITFAM challenges</h2>
+            </header>
+
+            <article class="challenge-card">
+                <div class="challenge-card-image">
+                    <img src="./images/image 12.jpg" alt="Man doing plank">
+                </div>
+                <div class="challenge-card-body">
+                    <span class="badge">Featured</span>
+                    <h3 class="card__title">30-day plank challenge</h3>
+                    <p>30 days. 1 minute. Build discipline through consistency.</p>
+                    <a href="#community" class="btn btn--hero-primary">View challenge</a>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer id="site-footer" class="site-footer">
+        <div class="container site-footer__inner">
+            <div class="site-footer__brand">
+                <a href="index.html" aria-label="FITFAM home">
+                    <img class="logo" src="images/FITFAM_logo_transparent.png" width="50" height="50" alt="FITFAM logo">
+                </a>
+                <p>Discipline. Consistency. Motion.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile bottom navigation -->
+    <nav class="bottom-nav" aria-label="Mobile">
+        <ul>
+            <li>
+                <a href="index.html" aria-current="page">
+                    <img class="bottom-nav__icon" src="images/icon/home_24dp_B7D936_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                    <span class="bottom-nav__label">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="./train/train.html">
+                    <img class="bottom-nav__icon" src="images/icon/exercise_24dp_B7D936_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                    <span class="bottom-nav__label">Train</span>
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    <img class="bottom-nav__icon" src="images/icon/stacks_24dp_B7D936_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                    <span class="bottom-nav__label">Skills</span>
+                </a>
+            </li>
+            <li>
+                <a href="#site-footer">
+                    <img class="bottom-nav__icon" src="images/icon/menu_24dp_B7D936_FILL0_wght400_GRAD0_opsz24.svg" alt="" aria-hidden="true">
+                    <span class="bottom-nav__label">More</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.back-navigation .eyebrow {
+  color: var(--grey-500);
+  font-weight: var(--font-weight-bold);
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.back-navigation p:nth-child(2) {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    color: var(--primary-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--grey-500);
+}
+
+.section__header h2 {
+    font-size: calc(var(--text-h5) + 4px);
+}
+

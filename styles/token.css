@@ -1,0 +1,101 @@
+:root {
+    /* =========================
+       TYPOGRAPHY SCALE
+    ========================== */
+    --text-sm: 1.4rem;
+    --text-base: 1.6rem;
+    --text-paragraph: 2rem;
+    --text-h5: 2.4rem;
+    --text-h4: 3.2rem;
+    --text-h3: 4rem;
+    --text-h2: 4.8rem;
+    --text-h1: 5rem;
+    --link-size: 1.3rem;
+  
+    /* FONT WEIGHT */
+    --font-weight-light: 300;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-weight-normal: 500;
+  
+    /* LINE HEIGHT */
+    --line-height-tight: 1;
+    --line-height-normal: 1.3;
+    --line-height-spaced: 1.5;
+
+
+    --nav-height: 5rem;
+    --bottom-nav-height: 6rem;
+
+    --radius-sm: 1rem;
+    --radius-lg: 1.5rem;
+  
+    /* LETTER SPACING */
+    --letter-spacing-tight: -2px;
+    --letter-spacing-wide: 3.5px;
+  
+    /* FONT FAMILY */
+    --font-family-headings: "Montserrat", sans-serif;
+    --font-family-body: "Inter", sans-serif;
+  
+    /* =========================
+       COLORS
+    ========================== */
+   /* PRIMARY — FITFAM GREEN
+      Branding, headings, active navigation, section highlights, primary buttons */
+    --primary-base: #B7D936;
+    --primary-tint: #D9F654;
+    --primary-shade: #8FAF16;
+
+   /* SECONDARY — FITFAM BLACK
+      Accents, feature icons, hover states, secondary buttons */
+    --secondary-base: #1f1f1e;
+    --secondary-tint: #1A1A1A;
+    --secondary-shade: #0A0A0A;
+
+   /* TERTIARY — FITFAM LIGHT GREEN
+      CTA buttons, icons, badges, hover effects */
+    --tertiary-base: #191919;
+    --tertiary-tint: #292929;
+    --tertiary-shade: #0D0D0D;
+
+    --white: #FFFFFF;
+    --off-white: #F8F5F0;
+
+    --grey-100: #F4F4F4;
+    --grey-200: #E8E8E8;
+    --grey-300: #D1D1D1;
+    --grey-400: #A0A0A0;
+    --grey-500: #707070;
+    --grey-600: #4A4A4A;
+    --grey-700: #2B2B2B;
+
+    --black: #000000;
+
+   /* ==========================================
+      TEXT COLORS
+   ========================================== */
+    /* --text-primary: #2B2B2B;
+    --text-secondary: #707070; */
+    --text: #FFFFFF;
+
+   /* ==========================================
+      BACKGROUND COLORS
+   ========================================== */
+    --background-primary: #ffe8eb;
+    --background-secondary: #fff6da;
+    --background-dark: #381e22;
+
+   /* ==========================================
+      ACCENT COLORS
+   ========================================== */
+    --accent-success: #2E8B57;
+    --accent-warning: #E6A700;
+    --accent-error: #C0392B;
+    --accent-info: #2563EB;
+  
+    --grey-base: #495057;
+    --grey-tint: #f1f3f3;
+    --grey-shade: #212529;  
+  }
+  

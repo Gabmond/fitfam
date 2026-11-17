@@ -1,0 +1,163 @@
+  a {
+    color: var(--grey-500);
+    font-size: var(--link-size);
+    transition: 
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        color 0.3s ease,
+        box-shadow 0.3s ease,
+        border 0.3s ease;
+  }
+
+  a:hover {
+    color: var(--primary-base);
+  }
+
+
+  /* General Buttons */
+  .btn {
+    display: inline-block;
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+    border-radius: 10px;
+    padding: 1.2rem 2.4rem;
+    transition: 
+        transform 0.3s ease,
+        background-color 0.3s ease,
+        box-shadow 0.3s ease,
+        border 0.3s ease;
+  }
+
+  /* Nav Buttons */
+
+  .btn--primary-nav {
+    outline: solid 1px var(--primary-base);
+    padding: 1rem 1.9rem;
+    color: var(--primary-base);
+  }
+
+  .btn--primary-nav:hover,
+  .btn--primary-nav:active {
+    outline: solid 1px var(--primary-base);
+    background-color: var(--primary-base);
+    color: var(--secondary-base);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 14%);
+  }
+
+  /* Hero Buttons */
+  .btn--hero-primary {
+    background-color: var(--primary-base);
+    color: var(--secondary-base);
+    padding: 1.4rem 2.4rem;
+    box-shadow: 0 10px 24px #d8f6542a;
+  }
+
+  .btn--hero-primary:hover,
+  .btn--hero-primary:active {
+    background-color: var(--primary-tint);
+    color: var(--secondary-base);
+  }
+
+  .btn--hero-secondary {
+    background-color: var(--secondary-base);
+    border: 1px solid var(--secondary-base);
+    padding: 1.4rem 2.4rem;
+  }
+
+  .btn--hero-secondary:hover,
+  .btn--hero-secondary:active {
+    background-color: var(--secondary-base);
+    color: var(--white);
+    border: 1px solid var(--primary-base);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 14%);
+  }
+
+  /* Card btns */
+  .btn--card-fill {
+    outline: solid 1px var(--tertiary-tint);
+    padding: 1rem 1.9rem;
+    background-color: var(--secondary-base);
+    text-transform: uppercase;
+  }
+
+  .btn--card-fill:hover,
+  .btn--card-fill:active {
+    outline: solid 1px var(--primary-base);
+    color: var(--primary-base);
+    /* color: var(--secondary-base); */
+    box-shadow: 0 10px 24px rgb(0 0 0 / 14%);
+  }
+
+  .btn--card-outline {
+    outline: solid 1px var(--tertiary-tint);
+    padding: 1rem 1.9rem;
+    background-color: var(--secondary-base);
+  }
+
+  .btn--card-outline:hover,
+  .btn--card-outline:active {
+    outline: solid 1px var(--primary-base);
+    color: var(--primary-base);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 14%);
+  }
+
+  .btn--goal {
+    background-color: var(--primary-base);
+    color: var(--secondary-base);
+    padding: 1.4rem 2.4rem;
+    box-shadow: 0 10px 24px #d8f6542a;
+  }
+
+  .btn--goal:hover,
+  .btn--goal:active {
+    background-color: var(--primary-tint);
+    color: var(--secondary-base);
+  }
+
+  .btn--disabled {
+    background-color: var(--primary-base);
+    color: var(--secondary-base);
+  }
+
+
+  .btn--primary {
+    background-color: var(--primary-base);
+    color: var(--secondary-base);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 14%);
+  }
+  
+  .btn--primary:hover,
+  .btn--primary:active {
+    background-color: var(--primary-base);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgb(0 0 0 / 14%);
+  }
+
+  .btn--primary-outline {
+    outline: solid 1px var(--primary-base);
+    padding: 1rem 1.9rem;
+    color: var(--primary-base);
+  }
+
+  .btn--primary-outline:hover,
+  .btn--primary-outline:active {
+    outline: solid 1px var(--primary-base);
+    background-color: var(--primary-base);
+    color: var(--secondary-base);
+    /* transform: translateY(-2px); */
+    box-shadow: 0 10px 24px rgb(0 0 0 / 14%);
+  }
+
+  .btn--secondary {
+    background-color: var(--secondary-base);
+  }
+
+  .btn--secondary:hover,
+  .btn--secondary:active {
+    background-color: var(--secondary-shade);
+    transform: translateY(-2px);
+  }

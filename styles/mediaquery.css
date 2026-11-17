@@ -1,0 +1,32 @@
+/* -------------------- LARGER SCREENS -------------------- */
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+
+  .container {
+    max-width: 82rem;
+  }
+
+  .bottom-nav {
+    display: none;
+  }
+
+  .hero__actions {
+    flex-direction: row;
+  }
+
+  .hero__actions .btn {
+    width: auto;
+  }
+
+  .card-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
